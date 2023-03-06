@@ -1,0 +1,289 @@
+  @import url("https://use.typekit.net/ggr0oqv.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@200&family=Playfair+Display&display=swap');
+
+body{
+    background-color: white;  
+}
+
+
+
+header.homepageheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #293241;
+  padding: 20px;
+  font-family: "futura-pt-bold", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+}
+
+.projectheading {
+    color: #3d5a80;
+}
+
+header.otherheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  font-family: "futura-pt-bold", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+header img {
+  width: 80px; 
+}
+
+nav.homepagebutton a{
+    color: white;
+}
+
+a.navbutton{
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+a.navbutton:hover {
+    text-decoration: underline;
+    color: #98c1d9;
+}
+
+/*
+nav a{
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+    
+}
+*/
+
+main.homepagemain{
+    background-image: url(images/ChoiA_Homepage_Background.jpeg);
+    margin: 0;
+}
+
+main{
+    max-width: 3000px;
+    margin: 0px auto;
+    background-color:#98c1d9;
+    padding: 25px;
+    overflow: auto;
+    
+}
+
+.aboutmain{
+    max-width: 3000px;
+    background-color: #98c1d9;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+#portfolioleft{
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+    margin-left: -20px;
+}
+
+#portfolioright{
+    width: 500px;
+    float: left;
+    margin-left: -20px;
+}
+
+#contact-info{
+    margin-top: 5px;
+}
+
+#contactleft{
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: #98c1d9;
+    text-align: right;
+    
+    
+}
+
+.contact-box {
+  background-color: #ee6c4d;
+  width: 40%;
+  min-width: 380px;
+  padding: 25px;
+  float:left;
+  height: 900px; 
+  margin: 0px;
+}
+
+.portfolioimg {
+  margin: 0 auto;
+}
+
+.portfolioimg a {
+  width: 500px;
+  display:inline-grid;
+  margin: 5%;
+}
+
+.portfolioimg a img {
+  width: 100%;
+  height: auto;
+}
+
+
+.portfolioview img {
+  width: 50%;
+  height: auto;
+  
+}
+
+.myphoto {
+    width: 200px;
+    height: auto;
+    float:left;
+    margin-right: 0px;
+}
+
+div.homepage-info {
+    display: flex;
+    align-items: center;
+}
+
+div.homepage-info img {
+    margin-right: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size:150px;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: -10px;
+}
+
+h2{
+    margin-top: -90px;
+    text-align: left;
+    font-family: 'Playfair Display-bold', serif;
+}
+
+h3 {
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contact-heading{
+    font-size: 40px;
+    color: #3d5a80;
+    
+}
+
+.projectheading {
+    font-size: 40px;
+    
+}
+
+.contact-subtitle {
+    margin-bottom: 50px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.aboutMe{
+    font-size: 50px;
+    margin-left: 0px;
+    text-align: left;
+    color: #3d5a80;
+    
+}
+
+.abouth2 {
+  margin-top: 40px;
+  text-align: left;  
+  color: #3d5a80;
+  font-family: "futura-pt-bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.skills{
+    float: left;
+    width: 40%;
+    margin: 0;
+    
+}
+
+.skillsh2 {
+     margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.projectdescription{
+    margin-top: 100px;
+}
+
+.educationcontaner{
+    width: 50%;
+    margin: 0;
+    float: left;
+    margin-right: 80px;
+}
+
+.contactformheading{
+    margin-top: 20px;
+    font-family: "futura-pt-bold", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+p{
+    margin-top: 10px;
+      font-family: 'Playfair Display', serif;
+      
+}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.aboutparagraph {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+
+ul {
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+footer{
+  font-family: 'Playfair Display', serif;
+
+
+}
